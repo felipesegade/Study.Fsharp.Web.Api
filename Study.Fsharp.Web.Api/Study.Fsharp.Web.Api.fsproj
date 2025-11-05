@@ -2,8 +2,8 @@
 
     <ItemGroup>
         <Compile Include="WeatherForecast.fs"/>
-        <Compile Include="Controllers/WeatherForecastController.fs"/>
-        <Compile Include="Program.fs"/>
+        <Compile Include="Rest\WeatherForecastEndpoints.fs" />
+        <Compile Include="Program.fs" />
     </ItemGroup>
 
     <ItemGroup>

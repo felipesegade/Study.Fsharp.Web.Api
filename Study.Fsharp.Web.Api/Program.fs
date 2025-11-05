@@ -7,6 +7,7 @@ open Microsoft.Extensions.DependencyInjection
 open Microsoft.Extensions.Hosting
 open Scalar.AspNetCore
 open Serilog
+open Study.Fsharp.Web.Api.Rest.Extensions
 
 type Program = class end
 
@@ -31,7 +32,7 @@ module Program =
         app.UseHttpsRedirection()
 
         app.UseAuthorization()
-        app.MapControllers()
+        app.MapWeatherForecast()
 
         app.MapOpenApi()
         app.MapScalarApiReference()

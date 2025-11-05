@@ -11,7 +11,7 @@ type WeatherForecastTests(fixture: WebApplicationFixture) =
         task {
             let client = fixture.CreateClient()
 
-            let! response = client.GetAsync("WeatherForecast")
+            let! response = client.GetAsync("api/weather-forecast")
 
             Assert.True(response.IsSuccessStatusCode)
         }
