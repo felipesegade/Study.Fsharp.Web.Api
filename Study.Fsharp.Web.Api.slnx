@@ -2,6 +2,7 @@
   <Folder Name="/Props/">
     <File Path="Directory.Packages.props" />
     <File Path="Directory.Build.props" />
+    <File Path=".editorconfig" />
   </Folder>
   <Project Path="Study.Fsharp.Web.Api.Integration.Tests/Study.Fsharp.Web.Api.Integration.Tests.fsproj" />
   <Project Path="Study.Fsharp.Web.Api/Study.Fsharp.Web.Api.fsproj" />
