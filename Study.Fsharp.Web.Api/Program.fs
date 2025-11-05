@@ -8,7 +8,10 @@ open Microsoft.Extensions.Hosting
 open Scalar.AspNetCore
 open Serilog
 
+type Program = class end
+
 module Program =
+
     let exitCode = 0
 
     [<EntryPoint>]
