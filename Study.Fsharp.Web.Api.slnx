@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Props/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="Study.Fsharp.Web.Api.Integration.Tests/Study.Fsharp.Web.Api.Integration.Tests.fsproj" />
+  <Project Path="Study.Fsharp.Web.Api/Study.Fsharp.Web.Api.fsproj" />
+</Solution>
