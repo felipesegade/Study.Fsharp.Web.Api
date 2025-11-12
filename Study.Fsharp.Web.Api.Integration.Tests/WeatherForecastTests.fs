@@ -1,4 +1,4 @@
-﻿module WeatherForecastTests
+﻿namespace Study.Fsharp.Web.Api.Integration.Tests
 
 open Study.Fsharp.Web.Api.Integration.Tests
 open Xunit
